@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db4007ad681a446f87c6e077b056bd4, type: 3}
+  m_Name: Eden Map Stats
+  m_EditorClassIdentifier: 
+  mode: 0
+  resolution: 256
+  autoUpdate: 1
+  IsGeneraterMesh: 1
+  planetRadius: 1
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simplexNoiseSettings:
+        seed: 0
+        strength: 0.2
+        numLayers: 4
+        baseRoughness: 0.75
+        roughness: 2
+        persistence: 0.2
+        centre: {x: 0, y: 3.42, z: 0}
+        minValue: 0
+      rigidNoiseSettings:
+        seed: 0
+        strength: 0.1
+        numLayers: 4
+        baseRoughness: 1
+        roughness: 20
+        persistence: 0.11
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.11
+        weightMultiplier: 0.29
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simplexNoiseSettings:
+        seed: 0
+        strength: 0.2
+        numLayers: 4
+        baseRoughness: 1
+        roughness: 5
+        persistence: 0.2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+      rigidNoiseSettings:
+        seed: 0
+        strength: 0.79
+        numLayers: 2
+        baseRoughness: 0.9
+        roughness: 5
+        persistence: 0.11
+        centre: {x: 0, y: 0.97, z: 0}
+        minValue: 0.2
+        weightMultiplier: 1
+  - enabled: 0
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simplexNoiseSettings:
+        seed: 0
+        strength: 0.2
+        numLayers: 4
+        baseRoughness: 10
+        roughness: 8
+        persistence: 0.3
+        centre: {x: 0, y: 1.05, z: 0}
+        minValue: 0
+      rigidNoiseSettings:
+        seed: 0
+        strength: 0.1
+        numLayers: 2
+        baseRoughness: 10
+        roughness: 20
+        persistence: 0.2
+        centre: {x: 0, y: 0.97, z: 0}
+        minValue: 0.6
+        weightMultiplier: 1
+  biome:
+  - biomeType: 2
+    height: 0.6
+    color: {r: 0.6839622, g: 1, b: 0.9614777, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 1
+    height: 0.5
+    color: {r: 0.3037113, g: 0.88838077, b: 0.990566, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 1
+    height: 0.4
+    color: {r: 0.5019608, g: 0.49411768, b: 0.49411768, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 1
+    height: 0.3
+    color: {r: 0.31764707, g: 0.21176472, b: 0.10588236, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 1
+    height: 0.2
+    color: {r: 0.4431373, g: 0.53333336, b: 0.21960786, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 1
+    height: 0.1
+    color: {r: 0.909804, g: 0.6627451, b: 0.31764707, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 0
+    height: 0.05
+    color: {r: 0.3647059, g: 0.6313726, b: 0.9450981, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  - biomeType: 0
+    height: 0.01
+    color: {r: 0, g: 0.32743883, b: 1, a: 0}
+    startCol: {r: 0, g: 0, b: 0, a: 0}
+    endCol: {r: 0, g: 0, b: 0, a: 0}
+    numSteps: 0
+  terrainData:
+    size: 256
+  mapColor: {r: 1, g: 1, b: 1, a: 0}
+  mapMaterial: {fileID: 2100000, guid: 60614da3e652b4fd0867cd53d11dc9f7, type: 2}

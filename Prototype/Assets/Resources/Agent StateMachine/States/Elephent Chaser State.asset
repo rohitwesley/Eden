@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e153214d8e34f46248ac4476901e1cd9, type: 3}
+  m_Name: Elephent Chaser State
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: e14f130b727a240c597be7ad999b2f5d, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: cf68a5123ef1b4aae9707b1acce69231, type: 2}
+    trueState: {fileID: 11400000, guid: 8c355dd9e7440483c893d2b0421f41b3, type: 2}
+    falseState: {fileID: 11400000, guid: abe76a1a3142e441988ec979d3b65c93, type: 2}
+  - decision: {fileID: 11400000, guid: 55e12323cd0e94d0cae59a3dc6ded5e2, type: 2}
+    trueState: {fileID: 11400000, guid: 0ae3343e2a6544ae5b3d66e46c220701, type: 2}
+    falseState: {fileID: 11400000, guid: 8c355dd9e7440483c893d2b0421f41b3, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}

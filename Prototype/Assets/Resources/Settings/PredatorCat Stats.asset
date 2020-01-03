@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084144002a01e1f45bdf15db991af5c1, type: 3}
+  m_Name: PredatorCat Stats
+  m_EditorClassIdentifier: 
+  AgentId: 6
+  diet: 1
+  _name: Predator Cat
+  _description: Whos your daddy
+  textPlaceHolder: {fileID: 0}
+  sprite: {fileID: 0}
+  moveSpeed: 1
+  lookRange: 40
+  lookSphereCastRadius: 1
+  attackRange: 1
+  attackRate: 1
+  attackForce: 15
+  attackDamage: 50
+  searchDuration: 4
+  searchingTurnSpeed: 120
+  startingEnergy: 100
+  startingHealth: 100
+  deathClip: {fileID: 0}
